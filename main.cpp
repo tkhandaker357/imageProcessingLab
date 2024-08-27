@@ -8,7 +8,7 @@ auto main(int argc, const char** argv) -> int {
         std::cout << "Not enough arguments. Type \"help\" to learn commands.\n";
         return 0;
     }
-//eee
+
     if (argv[1] == "help") {
         std::cout << "main [FILE NAME] [COMMAND] -o [OUTPUT NAME]\n";
         std::cout << "File in [FILE NAME] must be in .pgm format.\n \
